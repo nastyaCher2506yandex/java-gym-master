@@ -1,6 +1,7 @@
 package ru.yandex.practicum.gym;
 
 public class CounterOfTrainings {
+
     private Coach coach;
     private Integer countTrainings = 0;
 
@@ -9,8 +10,13 @@ public class CounterOfTrainings {
         this.countTrainings = countTrainings;
     }
 
-    public Coach getCoach() { return coach; }
-    public int getCountTrainings() { return countTrainings; }
+    public Coach getCoach() {
+        return coach;
+    }
+
+    public int getCountTrainings() {
+        return countTrainings;
+    }
 
     @Override
     public String toString() {
