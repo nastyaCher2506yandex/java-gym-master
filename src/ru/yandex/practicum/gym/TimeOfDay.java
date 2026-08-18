@@ -40,9 +40,4 @@ public class TimeOfDay implements Comparable<TimeOfDay> {
     public int getMinutes() {
         return minutes;
     }
-
-    @Override
-    public String toString() {
-        return hours + ":" + minutes;
-    }
 }
